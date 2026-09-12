@@ -11,40 +11,7 @@ triggers: [repurpose-plr, omnichannel-content, social-snippets-plr, content-casc
 
 ---
 
-## 1. The Distribution Bottleneck
-
-Creating or personalizing an authoritative long-form article is only 20% of the battle; the remaining 80% is **distribution**. 
-
-Publishing a 1,500-word piece solely to a blog leaves 95% of its potential audience untouched. However, manually rewriting that article for Twitter, LinkedIn, Instagram, Pinterest, and YouTube is an exhausting operational drain.
-
-Worse, lazy "cross-posting" (dumping the exact same text and links across all platforms) fails because each network possesses distinct algorithmic expectations, formatting rules, and audience mindsets.
-
-This skill implements the **Content Cascade Protocol**: decomposing 1 core asset into 12 bespoke channel formats in a single pass.
-
-```
-┌─────────────────────────────────────────────────────────┐
-│              1 Core Personalized PLR Asset              │
-│                 (Blog Post / eBook Chapter)             │
-└────────────────────────────┬────────────────────────────┘
-                             │
-                             ▼
-┌─────────────────────────────────────────────────────────┐
-│               The Content Cascade Engine                │
-├────────────────────────────┬────────────────────────────┤
-│ Professional & Long-Form   │ Visual & Algorithmic       │
-│ - LinkedIn Post (Hook/List)│ - Pinterest Pins & Boards  │
-│ - LinkedIn Pulse Essay     │ - YouTube Description/Tags │
-│ - FB Group Value Post      │ - YouTube Community Update │
-├────────────────────────────┼────────────────────────────┤
-│ Short-Form Video & Audio   │ Community & Ephemeral      │
-│ - TikTok / Reels Script    │ - Instagram Feed Carousel  │
-│ - 60-Second Hook / Payoff  │ - Instagram Story Sequence │
-└────────────────────────────┴────────────────────────────┘
-```
-
----
-
-## 2. The 12 Platform-Native Output Formats
+## 1. The 12 Platform-Native Output Formats
 
 ### 1. Facebook Business Page Posts
 * **Format:** 2-3 short paragraphs, conversational hook, direct value, engagement question at the end.
@@ -94,31 +61,25 @@ This skill implements the **Content Cascade Protocol**: decomposing 1 core asset
 
 ---
 
-## 3. Master Prompt: The 12-Format Omnichannel Cascade
+## 2. Omnichannel Cascade Execution
 
-```markdown
-You are a master social media content strategist and omnichannel distribution architect.
-Deconstruct the provided personalized article into 12 platform-native assets.
+Execute the conversion using the following directives:
 
-### INPUT ARTICLE:
-"""
-{{INSERT_PERSONALIZED_ARTICLE_TEXT}}
-"""
+**Inputs Required:**
+1. **INPUT ARTICLE:** {{INSERT_PERSONALIZED_ARTICLE_TEXT}}
+2. **TARGET AUDIENCE:** {{TARGET_AUDIENCE}}
+3. **CORE CTA / DESTINATION:** {{TARGET_URL_OR_RESOURCE}}
 
-TARGET AUDIENCE: {{TARGET_AUDIENCE}}
-CORE CTA / DESTINATION: {{TARGET_URL_OR_RESOURCE}}
-
-### EXECUTION DIRECTIVES:
+**Execution Directives:**
 1. Generate each of the 12 platform assets specified in the SOP.
 2. Adhere strictly to the native formatting, line-break style, and algorithm mechanics of each specific channel.
 3. For short-form video scripts (TikTok/Reels), provide explicit [Visual Action] and [Spoken Audio] directions.
 4. For carousel outlines, provide exact text for Slides 1 through 7.
 5. Ensure no two platform outputs use identical opening hooks.
-```
 
 ---
 
-## 4. Quality Control Checklist
+## 3. Quality Control Checklist
 
 Before deploying social assets:
 - [ ] Are LinkedIn line breaks optimized for mobile skimming?
