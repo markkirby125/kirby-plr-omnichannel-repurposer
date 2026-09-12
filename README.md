@@ -1,8 +1,8 @@
 # kirby-plr-omnichannel-repurposer
 
-*This skill is part of the [Kirby Skills Collection](https://github.com/markkirby125/kirby-skills-collection).*
+*This skill is part of the [Tiffany Lambert PLR Skills Collection](https://github.com/markkirby125/kirby-skills-tiff-collection).*
 
-Cascades a single personalized PLR article or chapter into 12 platform-native social, audio-visual, and professional micro-assets to maximize distribution velocity and multi-channel engagement.
+Cascades a single personalised PLR article or chapter into 12 platform-native social, audio-visual, and professional micro-assets to maximise distribution velocity and multi-channel engagement.
 
 ## 🪄 The Magic Prompt
 
@@ -24,6 +24,5 @@ Copy and paste this directly to your AI (Cursor, Windsurf, Claude Code, Antigrav
 
 ## Tech Stack
 
-- **Format**: Markdown / Content Distribution
-- **Architecture**: Tier 1/2 Single File Specification
+- **Format**: Markdown / Content Cascade Protocols
 - **Compatibility**: Antigravity, Claude Code, Cursor, Windsurf, Cline
