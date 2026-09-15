@@ -1,13 +1,15 @@
 ---
 name: kirby-plr-omnichannel-repurposer
-description: "Cascades a single personalized PLR article or chapter into 12 platform-native social, audio-visual, and professional micro-assets."
+description: "Use when cascading one personalized PLR article into 12 platform-native social and micro-assets."
 category: workflow
-triggers: [repurpose-plr, omnichannel-content, social-snippets-plr, content-cascade, cross-platform-repurposer, social-media-plr]
+triggers: [repurpose-plr, social-snippets-plr, content-cascade, cross-platform-repurposer]
 ---
 
 # SOP: Omnichannel Content Cascade & Repurposing Engine
 
 > Standard Operating Procedure for taking a single personalized Private Label Rights (PLR) asset and systematically fragmenting it into 12 platform-native formats to maximize distribution velocity.
+
+**Related:** Source must already be personalized (`kirby-plr-personalizer`). LinkedIn Pulse long-form (format 11) follows `kirby-great-essay` structure. Load `audience_profile.yaml` and `voice_dna.yaml`.
 
 ---
 
@@ -66,9 +68,10 @@ triggers: [repurpose-plr, omnichannel-content, social-snippets-plr, content-casc
 Execute the conversion using the following directives:
 
 **Inputs Required:**
-1. **INPUT ARTICLE:** {{INSERT_PERSONALIZED_ARTICLE_TEXT}}
-2. **TARGET AUDIENCE:** {{TARGET_AUDIENCE}}
-3. **CORE CTA / DESTINATION:** {{TARGET_URL_OR_RESOURCE}}
+1. **INPUT ARTICLE:** {{INSERT_PERSONALIZED_ARTICLE_TEXT}} (if still raw PLR, stop and run `kirby-plr-personalizer`)
+2. **AUDIENCE:** `audience_profile.yaml`
+3. **VOICE:** `voice_dna.yaml`
+4. **CORE CTA / DESTINATION:** {{TARGET_URL_OR_RESOURCE}}
 
 **Execution Directives:**
 1. Generate each of the 12 platform assets specified in the SOP.
@@ -82,6 +85,7 @@ Execute the conversion using the following directives:
 ## 3. Quality Control Checklist
 
 Before deploying social assets:
+- [ ] Source was personalized PLR; `audience_profile.yaml` and `voice_dna.yaml` were loaded.
 - [ ] Are LinkedIn line breaks optimized for mobile skimming?
 - [ ] Are TikTok hooks under 3 seconds with immediate visual/auditory tension?
 - [ ] Are outbound links removed from algorithmic penalties (e.g. FB Group bodies)?
