@@ -3,6 +3,9 @@ name: kirby-plr-omnichannel-repurposer
 description: "Use when cascading one personalized PLR article into 12 platform-native social and micro-assets."
 category: workflow
 triggers: [repurpose-plr, social-snippets-plr, content-cascade, cross-platform-repurposer]
+risk: unverified
+author: william-fitzpatrick
+tags: [kirby, ai-agent, workflow]
 ---
 
 # SOP: Omnichannel Content Cascade & Repurposing Engine
@@ -90,3 +93,14 @@ Before deploying social assets:
 - [ ] Are TikTok hooks under 3 seconds with immediate visual/auditory tension?
 - [ ] Are outbound links removed from algorithmic penalties (e.g. FB Group bodies)?
 - [ ] Are Pinterest descriptions optimized for search discovery rather than conversational banter?
+
+
+## Examples
+
+*(Add specific conversational examples here showing how the agent should behave.)*
+
+
+## Limitations (When NOT to Use)
+
+- Do not use this skill outside of its intended scope.
+- Stop and ask the user for clarification if the requirements are ambiguous.
