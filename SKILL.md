@@ -4,7 +4,7 @@ description: "Use when cascading one personalized PLR article into 12 platform-n
 category: workflow
 triggers: [repurpose-plr, social-snippets-plr, content-cascade, cross-platform-repurposer]
 risk: unverified
-author: william-fitzpatrick
+author: paul-kirby
 tags: [kirby, ai-agent, workflow]
 ---
 
