@@ -72,6 +72,7 @@ Execute the conversion using the following directives:
 3. For short-form video scripts (TikTok/Reels), provide explicit [Visual Action] and [Spoken Audio] directions.
 4. For carousel outlines, provide exact text for Slides 1 through 7.
 5. Ensure no two platform outputs use identical opening hooks.
+6. When constrained (this does not replace directive 1): if time allows only some formats, do the YouTube formats (7, 8) first; if CORE CTA / DESTINATION is missing, ask the user, and only as a fallback suggest a bottom-of-funnel page or an email sign-up; hand email copy to `kirby-plr-email-sequences` (directional, single-source, low confidence).
 
 ---
 
